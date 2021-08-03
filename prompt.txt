@@ -1,0 +1,37 @@
+- Algorithm that takes a string with repeated characters
+- Compress them
+- Show w/ number how many times the repeated characters
+- Example:
+
+Input: "aaa" "aaabccdddda"
+Output: "3a" "3ab2c4da"
+................................
+// non recursion 
+
+function compress (message) {
+let compreedString = ""
+let letterArray = message.split("")
+
+for let (i=0; i<letterArray.length; i++) {
+  let currentLetter = letterArray[i]
+  while (i<letterArray.length && letterArray[i] --- letterArray[i+1]) {
+    i++
+    count++
+  }
+
+  return compressedString
+......................................
+// functional
+
+const message = "aabcddddeefff";
+const compress = message => {
+  let newMessage = "", arr=[];
+  //convert message to letterArray
+  let reult = [...message].reduce (accumulator, element, i) => {
+    if (accumulator === [accumulator.length] !== element)
+    arr.push(accumulator);
+    -concat values?
+}
+
+return newMessage
+
